@@ -14,7 +14,6 @@ Here,
     Same tab = _self
     New or Blank tab = _blank
 
-
 # Appearance of HTML Anchor Tag:
   a. Unvisited Link → Displayed underlined and blue.  
   b. Visited Link → Displayed underlined and purple.  
