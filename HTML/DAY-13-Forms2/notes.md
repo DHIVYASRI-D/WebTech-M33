@@ -1,18 +1,19 @@
 # Role of forms in webpages:
+
 -> HTML forms are used to take user inputs.
 -> With the help of forms we can collect the data from all the users at once.
 
-
 # HTML Forms:
--> To provide forms in webpage we have to use <form> tag. 
+
+-> To provide forms in webpage we have to use <form> tag.
 -> action ⇒ It is used to provide server reference to which data has to be sent.
 
-
 # Form Elements:
+
 -> To take different inputs, form provides different elements.
 -> To take inputs from the user we have to use <input>.
 -> <input> tag has attributes type, name and id.
--> type attribute decides which different elements to take different inputs. 
+-> type attribute decides which different elements to take different inputs.
 -> name is used to provide name and id is used to provide unique name.
 -> Form elements consist of:
 
@@ -27,58 +28,60 @@
 9. <optgroup> => Groups related options inside a dropdown
 10. <datalist> => Provides predefined suggestions for an <input> field
 
-
 # What is <select>?
+
 -> A <select> tag is used to create a dropdown list where the user can only choose from predefined options.
 -> Only select from list ❌ typing not allowed.
 -> For Example:
-        <label>Select your country:</label>
-        <select>
-          <option>India</option>
-          <option>USA</option>
-          <option>UK</option>
-        </select>
+<label>Select your country:</label>
+<select>
 
+<option>India</option>
+<option>USA</option>
+<option>UK</option>
+</select>
 
 # What is <datalist>?
+
 -> A <datalist> tag is used to show suggestions in an input field while still allowing the user to type their own value.
 -> Suggestions + typing allowed ✅
--> For Example: 
-        <label>Choose your browser:</label>
-        <input list="browsers">
-        <datalist id="browsers">
-          <option value="Chrome">Chrome</option>
-          <option value="Firefox">Firefox</option>
-          <option value="Edge">Edge</option>
-        </datalist>
+-> For Example:
+<label>Choose your browser:</label>
+<input list="browsers">
+<datalist id="browsers">
 
+<option value="Chrome">Chrome</option>
+<option value="Firefox">Firefox</option>
+<option value="Edge">Edge</option>
+</datalist>
 
 # Input Types:
-1. <input type=”button”> 
-2. <input type=”checkbox”> 
-3. <input type=”color”> 
-4. <input type=”date”> 
-5. <input type=”date-time local”> 
-6. <input type=”email”> 
-7. <input type=”file”> 
-8. <input type=”hidden”> 
-9. <input type=”image”> 
-10. <input type=”month”> 
-11. <input type=”number”> 
-12. <input type=”password”> 
-13. <input type=”radio”> 
-14. <input type=”range”> 
-15. <input type=”reset”> 
-16. <input type=”search”> 
-17. <input type=”submit”> 
-18. <input type=”tel”> 
-19. <input type=”text”> 
-20. <input type=”time”> 
-21. <input type=”url”> 
-22. <input type=”week”> 
 
+1. <input type=”button”>
+2. <input type=”checkbox”>
+3. <input type=”color”>
+4. <input type=”date”>
+5. <input type=”date-time local”>
+6. <input type=”email”>
+7. <input type=”file”>
+8. <input type=”hidden”>
+9. <input type=”image”>
+10. <input type=”month”>
+11. <input type=”number”>
+12. <input type=”password”>
+13. <input type=”radio”>
+14. <input type=”range”>
+15. <input type=”reset”>
+16. <input type=”search”>
+17. <input type=”submit”>
+18. <input type=”tel”>
+19. <input type=”text”>
+20. <input type=”time”>
+21. <input type=”url”>
+22. <input type=”week”>
 
 # Input Attributes:
+
 1. type => Defines the type of input (text, email, password, number, etc.)
 2. id => Unique identifier for an element (used for CSS/JS and linking with label)
 3. name => Name used to identify form data when submitting
