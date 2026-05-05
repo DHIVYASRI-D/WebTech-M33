@@ -1,5 +1,5 @@
 # What is CSS?
--> CSS = Cascading Style Sheets
+-> CSS stands for Cascading Style Sheets
 -> It is used to style HTML elements
 -> It controls how a webpage looks (design, colors, layout)
 
@@ -8,7 +8,7 @@ HTML = Structure
 CSS = Styling 
 
 # Why do we use CSS?
--> Makes webpages beautiful and user-friendly
+-> Makes webpages beautiful and user-friendly.
 -> Controls:
     Text color
     Fonts
@@ -20,8 +20,8 @@ CSS = Styling
 -> Selector {propertyName: propertyValue;}
 A CSS rule has:
     Selector → which element
-    Property → what to change
-    Value → how to change
+    propertyName → what to change
+    propertyValue → how to change
 
 # History of CSS:
 1994 → Idea by Håkon Wium Lie
@@ -58,7 +58,7 @@ CSS4 → Future (in progress)
 -> It is used for multiple webpages.
 -> To connect external CSS to HTML document we have to use of <link> tag.
 -> Example: <link rel="stylesheet" href="style.css">
-    style.css
+    style.css = external css file
     h1 {
         color: green;
     }
